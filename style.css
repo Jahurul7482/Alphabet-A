@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+body{
+    background-color: #ddd;
+}
+.container{
+    width: 80vh;
+    height: 80vh;
+    background-color: whitesmoke;
+    margin: auto;
+    position: relative;
+    top: 10vh;
+}
+.alphabet{
+    height: 70vh;
+    width: 70vh;
+    margin: auto;
+    position: relative;
+    top: 5vh;
+}
+.asset:nth-child(1){
+    background-color: red;
+    height: 40vh;
+    width: 40vh;
+    border-radius: 0 0 100% 0;
+    transform: rotate(60deg);
+    position: absolute;
+    top: 5vh;
+    left: 15vh;
+    z-index: 1;
+
+}
+.asset:nth-child(2){
+    background-color: whitesmoke;
+    height: 50vh;
+    width: 18vh;
+    border-radius: 100% 0 0 0;
+    transform: rotate(35deg);
+    position: absolute;
+    top: -12vh;
+    left: 12vh;
+    z-index: 2;
+}
+.asset:nth-child(3){
+    background-color: GREEN;
+    height: 23vh;
+    width: 60vh;
+    border-radius: 100% 0 0 0;
+    transform: rotate(-15deg);
+    position: absolute;
+    top: 43vh;
+    left: 8vh;
+    z-index: 3;
+}
+.asset:nth-child(4){
+    background-color: whitesmoke;
+    height: 12vh;
+    width: 50vh;
+    border-radius: 100% 0 0 0;
+    transform: rotate(-15deg);
+    position: absolute;
+    top: 55vh;
+    left: 13vh;
+    z-index: 4;
+}
+.asset:nth-child(5){
+    background-color: whitesmoke;
+    height: 15vh;
+    width: 15vh;
+    border-radius: 100% 0 100% 100%;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 16vh;
+    left: 34vh;
+    z-index: 5;
+}
+.asset:nth-child(6){
+    background-color: red;
+    height: 15vh;
+    width: 15vh;
+    border-radius: 100% 0 100% 100%;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 36vh;
+    left: 10vh;
+    z-index: 6;
+}
+.asset:nth-child(7){
+    background-color: red;
+    height: 18vh;
+    width: 18vh;
+    border-radius: 100% 100% 0 100%;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 20vh;
+    left: 34vh;
+    z-index: 7;
+}
+.asset:nth-child(8){
+    background-color: whitesmoke;
+    height: 16vh;
+    width: 16vh;
+    border-radius: 100% 0 100% 100%;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 35.5vh;
+    left: 3vh;
+    z-index: 8;
+}
